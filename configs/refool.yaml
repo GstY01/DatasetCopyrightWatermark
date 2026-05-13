@@ -1,0 +1,8 @@
+# Refool 反射后门配置
+target_label: 0
+r_adv_img_folder_path: "./resource/refool/r_adv"   # 存放反射图像的文件夹
+ghost_rate: 0.49
+alpha_t: -1.0        # 负数表示随机
+offset: [0, 0]       # 偏移量 (y, x)
+sigma: -1.0          # 负数表示随机
+ghost_alpha: -1.0    # 负数表示随机

@@ -1,0 +1,5 @@
+# SIG 正弦信号后门配置
+target_label: 0
+sig_f: 6.0
+delta: 20.0          # 强度，像素值变化范围（0~255）
+clean_label: false   # 是否保持原标签（false 表示修改为目标标签）

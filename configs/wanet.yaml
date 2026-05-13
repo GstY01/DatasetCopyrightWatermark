@@ -1,0 +1,4 @@
+target_label: 0
+s: 0.5          # 扭曲强度
+k: 4            # 噪声网格尺寸 (k x k)
+grid_rescale: 1.0   # 网格缩放

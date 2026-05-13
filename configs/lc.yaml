@@ -1,0 +1,4 @@
+# Label-Consistent Backdoor Attack 配置
+target_label: 0
+attack_train_replace_imgs_path: "./resource/label-consistent/data/resnet18_cifar10_16_train.npy"
+reduced_amplitude: 16

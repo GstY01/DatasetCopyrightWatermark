@@ -1,0 +1,4 @@
+patch_size: 4
+patch_color: [1.0, 1.0, 1.0]   # 白色
+position: [0, 0]                # 左上角
+patch_mask_path: null           # 触发图案路径

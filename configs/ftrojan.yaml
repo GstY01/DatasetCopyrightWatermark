@@ -1,0 +1,7 @@
+# FTrojan 频域后门配置
+target_label: 0
+channel_list: [0]           # 在 Y 通道（若 YUV=True）或 R 通道（若 YUV=False）添加
+magnitude: 0.5              # DCT 系数增加幅度
+yuv: true                   # 使用 YUV 色彩空间
+window_size: 8              # DCT 分块大小
+pos_list: [0,0, 0,1, 1,0]   # 要修改的 DCT 系数位置（一对对列出），这里修改 (0,0),(0,1),(1,0)

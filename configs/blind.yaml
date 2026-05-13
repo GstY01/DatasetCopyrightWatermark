@@ -1,0 +1,5 @@
+# Blind 攻击配置
+target_label: 0
+position: [3, 23]           # 图案放置的左上角坐标 (top, left)
+mask_value: -10             # 掩码标记值（图案中不需要生效的位置）
+# pattern: 可选，自定义图案，例如一个 4x4 的随机图案（需符合 numpy 数组格式）

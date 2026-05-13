@@ -1,0 +1,3 @@
+# Low Frequency 后门配置
+target_label: 0
+lowFrequencyPatternPath: "./resource/lowFrequency/cifar10_resnet18_0_255.npy"

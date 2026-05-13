@@ -1,0 +1,4 @@
+# BppAttack 配置
+target_label: 0
+squeeze_num: 8        # 量化级别（越小失真越大）
+dithering: false      # 是否启用抖动（true 可减少条带效应但更耗时）

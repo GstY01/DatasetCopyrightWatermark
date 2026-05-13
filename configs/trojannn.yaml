@@ -1,0 +1,11 @@
+target_label: 0
+pretrain_model_path: "./resource/clean_model/cifar10_resnet18/clean_model.pth"
+mask_path: "./resource/trojannn/mask.png"
+selected_layer_name: "layer4.1.conv2"      # 要攻击的层名
+selected_layer_param_name: "layer4.1.conv2.weight"  # 用于选择神经元的参数名
+num_neuron: 1
+neuron_target_values: 10.0
+mask_update_iters: 1000
+eps: 0.3
+alpha: 0.1
+tolerance: 1e-3
